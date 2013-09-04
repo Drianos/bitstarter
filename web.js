@@ -80,7 +80,6 @@ db.sequelize.sync().complete(function(err) {
   }
 });
 
-<<<<<<< HEAD
 // add order to the database if it doesn't already exist
 var addOrder = function(order_obj, callback) {
   var order = order_obj.order; // order json from coinbase
@@ -110,9 +109,3 @@ var addOrder = function(order_obj, callback) {
     });
   }
 };
-=======
-var port = process.env.PORT || 8080;
-app.listen(port, function() {
-  console.log("Listening on " + port);
-});
->>>>>>> 3fb36bb0178e72b275b83ddb0a8bdbb71d295efc
